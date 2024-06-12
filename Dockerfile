@@ -1,11 +1,11 @@
 FROM node:latest
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/index
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 8000
 
 RUN npm install
 
-CMD ["node", "app.js"]
+CMD ["nodemon", "src/index.js"]

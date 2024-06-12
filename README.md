@@ -1,8 +1,8 @@
-# Docker_POC
+# NodeJS-Docker
 
 ## docker build -t node-docker ./
 ## docker images
-## docker run -d -p 3000:3000 node-docker
+## docker run -d -p 8000:8000 node-docker
 ## docker ps
 ## docker logs <Container ID>
 
